@@ -1,0 +1,355 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin; 
+  pointer-events: none;
+}
+body {
+  background-color: #80808014 !important;
+}
+/* html {
+  height: initial !important ;
+} */
+
+.vendor-form{
+  width: 65%;
+  margin: auto;
+}
+
+.cat-modal{
+  height: auto !important;
+  left: auto !important;
+  top: auto !important;
+}
+.react-tooltip-lite{
+  left: 74px;
+  top: 119px;
+  max-width: 1325px;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1000;
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  background: rgb(32, 32, 32);
+  color: white;
+  border-radius: 5%;
+}
+
+.marginTop {
+  margin-top: 2vh;
+  padding-left: 20px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-5 {
+  margin: 5px;
+}
+.padding-2vw {
+  padding: 2vw;
+}
+.padding-bottom-2vw {
+  padding-bottom: 2vw;
+}
+.border-delete {
+  border-left: 3px solid #e1524e !important;
+}
+.border-update {
+  border-left: 3px solid #2488ee !important;
+}
+.bg-update {
+  background-color: #2587ee21;
+}
+.bg-delete {
+  background-color: #e1524e24;
+}
+.loading_img {
+    width: 8%;
+    display: block;
+    margin: auto;
+    padding-top: 16%;
+}
+.sidebar-width{
+  min-width: 190px !important;
+}
+.dashboardExpanded{
+  position: absolute !important;
+  left: 14pc !important;
+  padding-top: 1pc !important;
+  padding-right: 2pc !important;
+}
+.dashboardNotExpanded{
+  padding-top: 1pc !important;
+  padding-left: 2pc !important;
+}
+.active_page {
+  color: white !important;
+  background-color: #2185d0 !important;
+}
+.table_loading_img {
+  margin-left: 35vw;
+}
+.company_logo {
+  width: 5vw;
+}
+
+.Toastify__toast--default {
+  color: black;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0px 2vw 0px 0px !important;
+}
+
+.date_picker_input {
+  padding: 8px 10px;
+  border: #2185d0 1px solid;
+  border-radius: 2px;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 1px #63b3ef, 0 2px 4px 0 rgb(99, 179, 239),
+    0 2px 10px 0 rgb(99, 179, 239) !important;
+}
+
+.not-found {
+  width: 33vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+}
+
+.ui.pagination.menu .active.item {
+  background-color: rgb(33, 133, 208) !important;
+  color: rgb(255, 255, 255) !important;
+  outline-color: rgb(33, 133, 208) !important;
+}
+
+.nav_menu_item {
+  height: 100%;
+}
+.nav_menu_menu_item {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.ui.inverted.dimmer > .ui.modal {
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.2) !important;
+  background-color: white;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.discount-align{
+  width: 15%;
+  border: none;
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
+}
+
+/* file uploader */
+.fileContainer p {
+  font-size: 12px;
+  margin: 8px 0 4px;
+  display: none;
+}
+.imguploader {
+  text-align: center;
+}
+.imguploader input {
+  margin-bottom: 15px !important;
+}
+.imguploader img {
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 5%;
+  box-shadow: 0 0 5px #2185d0;
+}
+
+.width-32 {
+  width: 32%;
+}
+
+.filter_form_fields {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -0.5em 0.4em !important;
+}
+.filter_table {
+  margin: 0.8em 0 !important;
+}
+.sidenav---sidenav---_2tBP {
+  position: fixed;
+  background: #1969a4;
+}
+.sidenav---sidenav-nav---3tvij
+  > .sidenav---sidenav-navitem---uwIJ-
+  > .sidenav---navitem---9uL5T
+  .sidenav---navicon---3gCRo
+  > *,
+.sidenav---sidenav-nav---3tvij
+  > .sidenav---sidenav-navitem---uwIJ-
+  > .sidenav---navitem---9uL5T
+  .sidenav---navtext---1AE_f
+  > * {
+  color: #ffffff;
+}
+.hPgCYk {
+  background-color: #2185d0;
+}
+.sidenav---sidenav-nav---3tvij
+  > .sidenav---sidenav-navitem---uwIJ-
+  > .sidenav---navitem---9uL5T
+  .sidenav---navtext---1AE_f {
+  color: #ffffff;
+}
+.remove-discount-btn {
+  padding-left: 4px;
+  position: absolute;
+  font-size: xx-large;
+  color: crimson;
+  cursor: pointer;
+}
+
+.remove-item-icon {
+  background: none !important;
+  color: darkred !important;
+  padding: 3px 0px 0px 0px !important;
+}
+
+.increase-discount-icon {
+  background: none !important;
+  padding: 3px 0px 0px 3px !important;
+}
+
+.decrease-discount-icon {
+  background: none !important;
+  padding: 3px 0px 0px 0px !important;
+}
+
+.delete-invoice-item {
+  padding-left: 25px;
+  cursor: pointer;
+}
+.items-record{
+  text-align: center;
+  opacity: 0.2;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.nav-text {
+  text-align: left;
+}
+
+#addItem,
+#addcategory {
+  float: right;
+  margin-top: -4%;
+}
+.categoryForm,
+.itemForm {
+  padding: 25px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui.card > .image > img,
+.ui.cards > .card > .image > img {
+  height: 120px !important;
+}
+
+.card-heading {
+  font-size: medium !important;
+  text-align: center;
+}
+
+.logo {
+  width: 44px !important;
+  height: 47px !important;
+  margin-top: -4px !important;
+  z-index: -1;
+}
+
+.page-header {
+  padding-bottom: 30px;
+}
+
+.divider {
+  margin-bottom: 22px !important;
+  border-color: #1969a4 !important;
+  border-radius: 100%;
+}
+
+.header-text {
+  color: #1969a4;
+  margin-left: 5px;
+}
+
+.second-header {
+  padding-top: 10px !important;
+  color: #1969a4 !important;
+}
+
+.card-contatiner {
+  margin-top: 40px !important;
+  margin-bottom: 50px !important;
+}
+
+.card-div {
+  width: 220px !important;
+}
+
+.card-divider{
+  margin-bottom: 40px !important;
+}
+
+.barcode svg {
+  width: 100%;
+}
+.submit-btn {
+  margin-right: 10px !important;
+}
+
+.drafts-container{
+  margin-top: 100px !important;
+}
+
+.drafts-heading{
+  color: #1969a4;
+}
+
+.remove-draft-btn {
+  color: darkred !important;
+  background: antiquewhite !important;
+}
+.ui.menu:last-child {
+  margin-bottom: 15px !important;
+}
+
+.account-table td, .account-table th {
+  padding: .4rem !important;
+}
+
+.search-btn{
+  color: white !important;
+  background: rgb(244, 143, 52) !important;
+  margin-top: 19px !important;
+}
